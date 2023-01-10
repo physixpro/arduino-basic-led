@@ -15,9 +15,9 @@ float voltage= sensorValue * (5.0 / 1023.0);
 
   digitalWrite(MY_LED, HIGH);
  Serial.println(voltage);
-  delay(100);
+  delay(1000);
   digitalWrite(MY_LED,LOW);
-  delay(100);
+  delay(1000);
   Serial.println(voltage);
   
 }
